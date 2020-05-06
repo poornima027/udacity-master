@@ -1,0 +1,119 @@
+h1{
+    text-align: left;
+    text-decoration: solid;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    
+    background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+}
+#header{
+    grid-area: hd;
+    height: 100px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+.search-container input
+  {
+    border-radius: 40px;
+  }
+ 
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background: cornsilk;
+  }
+  
+  
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background-color: darkslategray;
+    color: greenyellow;
+  }
+  
+  
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+
+  .fakeimg {
+    background-image: url(./im/havamahal.jpg);
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .img {
+    background-image: url(./im/3-robot.jpg);
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .im {
+    background-image: url(./im/download\ \(1\).jpg);
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+
+ 
+  .fake {
+    background-image: url(./im/download.jpg);
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+ 
+  .card {
+     background-color: darkslategrey;
+     padding: 20px;
+     margin-top: 20px;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background-color: darkslategrey;
+    margin-top: 20px;
+    color: greenyellow;
+  }
+  
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
