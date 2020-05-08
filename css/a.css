@@ -1,0 +1,247 @@
+h1{
+    text-align: left;
+    text-decoration: solid;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    
+    background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+}
+#header{
+    grid-area: hd;
+    height: 100px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #555555;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: greenyellow;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: greenyellow;
+    color: black;
+  }
+  
+  .topnav .search-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 2px 5px;
+    margin-top: 5px;
+    margin-right: 10px;
+    background: #555555;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: greenyellow;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav .search-container {
+      float: none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }
+ 
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background: cornsilk;
+  }
+  
+  
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background-color: #555555;
+    color: greenyellow;
+  }
+  
+  
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 13px;
+  }
+  
+
+  .fakeimg {
+    background-image: url(../im/havamahal.jpg);  
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+
+  figcaption{
+    align-self: flex-end;
+    font-style: italic;
+    color: darkslategrey;
+  }
+  .img {
+    height: 230px;
+    background-image: url(../im/images.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .im {
+    background-image: url(../im/download\ \(1\).jpg);
+    background-color: #aaa;
+    width: auto;
+    padding: 20px;
+  }
+
+ 
+  .fake {
+    background-image: url(../im/download.jpg);
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  
+  .button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+  }
+
+  .button1:hover {
+    background-color: #555555;
+    color: white;
+  }
+ 
+  .card {
+     background-color: #555555;
+     padding: 20px;
+     margin-top: 20px;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .con{
+    width: 300px;
+  }
+  
+ 
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #555555;
+    margin-top: 20px;
+    color: greenyellow;
+  }
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  

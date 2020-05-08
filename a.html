@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Blog</title>
-    <link rel="stylesheet" type="text/css" href="./a.css">
+    <link rel="stylesheet" type="text/css" href="./css/a.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -12,10 +12,18 @@
     <div class="header">
         <h1>A Travel Blog</h1> 
         <div class="topnav">
-             <div class="search-container">
-              <form action="/action_page.php">
-                <input type="text" placeholder="Search.." name="search">
-                <button type="submit"><i class="fa fa-search"></i></button>
+          <a class="active" href="#box">Home</a>
+          <a href="./html/d.html">Recent Blogs</a>
+          <a href="./html/about.html">About</a>
+          
+          <div class="search-container">
+            <form action="./a.html">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+                
               </form>
             </div>
           </div>
@@ -26,30 +34,33 @@
         <div class="leftcolumn">
           <div class="box">
             <h2 style="padding: 5px;">TRAVEL TO JAIPUR</h2>
-            
-            <div class="fakeimg" style="height:200px;"></div>
-            
+           <div class="fakeimg" style="height:200px;"></div>
+            <figcaption>Jaipur</figcaption>
             <p style="padding: 10px;">The historic aura and mesmerizing pages of our history books are painted in the royal reigns and the royal patronage of the ruling kingdoms belonging to this vibrant and colourful state of Rajasthan. The most glorious and acclaimed reign in the antiquities of our country is daunted by this bewitching and compelling beauty of Rajasthan. The marvellous and magnificent city, Jaipur which is also the capital of the historical and traditional state of Rajasthan is the largest city of the Indian state of Rajasthan in Northern India.<br><br><strong>May 3,2020</strong></p>
+            <a href="./html/b.html"><button class="button button1">Read More</button></a>
           </div>
+         
           <div class="box">
             <h2 style="padding: 5px;">TRAVEL TO UDAIPUR</h2>
-           
-            <div class="fake" style="height:200px;"></div>
-            
+           <div class="fake" style="height:200px;"></div>
+            <figcaption>Udaipur</figcaption>
             <p style="padding: 10px;">Often referred to as the 'Venice of the East', the city of lakes Udaipur is located around azure water lakes and is hemmed in by lush green hills of Aravallis. The famous Lake Palace, located in the middle of Lake Pichola is one of the most beautiful sights of Udaipur. It is also home to Jaisamand Lake, claimed to be the second largest man-made sweet water lake in Asia. The beautiful City Palace and Sajjangarh (Monsoon Palace) add to the architectural beauty and grandeur of the city. The city is also known for its profusion of zinc and marble. Solar observatory in Lake Fateh Sagar is the only observatory in India located on an island and has been made on the pattern of  Big Bear Lake in Southern California. The ten-day Shilpgram Festival which starts from 21 Dec to 30 Dec pulls in a large number of people interested in arts and crafts.<br><br><strong>May,4 2020<strong></p>
-          </div>
+              <a href="./html/c.html"><button class="button button1">Read More</button></a>  
+            </div>
         </div>
         <div class="rightcolumn">
-          <div class="box">
-            <h2>About Me</h2>
-            <div class="img" style="height:100px;"></div>
-            <p>A Travel Blogger..</p>
+          </a><div class="box">
+            <a href="./html/about.html"><div class="img" ></div>
+            <h2>About Blogger</h2>
+            
+            <p></p>
           </div>
+         
           <div class="card">
             <h3>Popular Post</h3>
-              <a href="./b.html"><div class="fakeimg">Jaipur</div><br></a>
-           <a href="./c.html"><div class="fake">Udaipur</div><br></a>
-            <a href="./d.html"><div class="im">Shimla</div></a>
+              <a href="./html/b.html"><div class="fakeimg">Jaipur</div><br></a>
+           <a href="./html/c.html"><div class="fake">Udaipur</div><br></a>
+            <a href="./html/d.html"><div class="im">Shimla</div></a>
           </div>
           <div class="card">
             <h3>Follow Me</h3>
@@ -64,7 +75,10 @@
             <p>Posted by: Poornima Dave</p>
 
             <p>Contact information: <a href="poornimadave27@gmail.com" style="color: black;">poornimadave27@gmail.com</a>.</p>
-          <p>All rights reserved</p>
+            <a href="https://www.linkedin.com/in/poornima-dave-44056717b/" class="fa fa-linkedin"></a>
+            <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>    
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>      
+            <p>All rights reserved</p>
         </footer>
           
       </div>
