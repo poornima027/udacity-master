@@ -1,3 +1,6 @@
+@import url("b.css");
+@import url("c.css");
+@import url("d.css");
 h1{
     text-align: left;
     text-decoration: solid;
@@ -62,23 +65,7 @@ blockquote {
     padding: 20px 0;
     font-size: 30px;
   }
-  .pic{
-    background-image: url(../im/103.jpg);
-    background-size: contain;
-  }
-  .pics{
-    background-image: url(../im/havamahal.jpg);
-    background-size: contain;
-  }
-  .pic1{
-    background-image: url(../im/125.jpg);
-    background-size: contain;
-  }
-  .pics1{
-    background-image: url(../im/UDAIPUR.jpg);
-    background-size: contain;
-  }
-
+ 
   .topnav a:hover {
     background-color: greenyellow;
     color: black;
