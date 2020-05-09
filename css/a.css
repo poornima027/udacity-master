@@ -5,6 +5,14 @@ h1{
     font-size: 30px;
 }
 
+blockquote { 
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 .box{
     display: flex;
     align-items: center;
@@ -38,7 +46,39 @@ h1{
     text-decoration: none;
     font-size: 17px;
   }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    height: 200px;
+    padding: 10px;
+    background-size: contain;
+  }
   
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  .pic{
+    background-image: url(../im/103.jpg);
+    background-size: contain;
+  }
+  .pics{
+    background-image: url(../im/havamahal.jpg);
+    background-size: contain;
+  }
+  .pic1{
+    background-image: url(../im/125.jpg);
+    background-size: contain;
+  }
+  .pics1{
+    background-image: url(../im/UDAIPUR.jpg);
+    background-size: contain;
+  }
+
   .topnav a:hover {
     background-color: greenyellow;
     color: black;
