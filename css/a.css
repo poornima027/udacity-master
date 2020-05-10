@@ -123,10 +123,11 @@ blockquote {
     background: greenyellow;
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1000px) {
     .topnav .search-container {
       float: none;
     }
+
     .topnav a, .topnav input[type=text], .topnav .search-container button {
       float: none;
       display: block;
